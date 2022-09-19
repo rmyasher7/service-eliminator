@@ -1,0 +1,84 @@
+body {
+}
+.navbar-nav > li {
+  padding-left: 25px;
+}
+.nav_brand > a {
+  padding-left: 25px;
+}
+.order_now {
+  text-decoration: none;
+}
+.ratings {
+  background-color: azure;
+  align-items: center;
+}
+.ratings i {
+  color: #cecece;
+  font-size: 20px;
+}
+
+.rating-color {
+  color: #fbc634 !important;
+}
+#owl-demo1 .owl-stage-outer {
+  height: 110%;
+}
+.owl-prev {
+  left: -30px;
+}
+.owl-next {
+  right: -30px;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 220px;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 50px;
+  color: #cecece;
+  background-color: whitesmoke;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.pricing_column {
+  align-items: center;
+  justify-content: center;
+}
+.hov_badge {
+  background-color: blue;
+}
+.card_1 {
+  width: 60%;
+  height: 100%;
+}
+.card_1:hover,
+.card_3:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  background-color: blue;
+  text-decoration-color: white;
+}
+.card_1:hover,
+.card_3:hover,
+.h1,
+.p {
+  color: white;
+}
+.pricing_column:hover .card_2 {
+  transform: scale(0.8);
+}
+.card_2:hover {
+  transform: scale(1.2);
+}
+.card_2 {
+  width: 60%;
+}
+.card_3 {
+  width: 60%;
+  height: 100%;
+}
